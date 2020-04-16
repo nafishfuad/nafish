@@ -1,0 +1,400 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+hr {
+    border: 0;
+    border-top: 1px solid #747d8c;
+    opacity: 0.4;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+disply {
+    margin: 0;
+    padding: 0;
+    font-family: 'Volkhov', serif;
+}
+.header {
+    width: 100%;
+    border-top: 4px solid #82589F;
+}
+.header::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+.header .container {
+    overflow: hidden;
+    width: 93%;
+    margin: auto;
+    padding-top: 20px;
+}
+.header .left-part {
+    width: 30%;
+    float: left;
+}
+.header .left-part h2 {
+    font-weight: 400px;
+    font-size: 40px;
+    color: #82589F;
+}
+.header .left-part p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    margin-top: 5px;
+    color: #778ca3;
+}
+.header .right-part {
+    font-family: 'Open Sans', sans-serif;
+    width: 70%;
+    float: right;
+    text-align: right;
+}
+
+.header .right-part .nbar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.header .right-part .nbar ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.header .right-part .nbar ul li:nth-child(6) {
+    margin-right: 0;
+}
+.header .right-part .nbar ul li .nbtn {
+    color: #2c3e50;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 5px 5px;
+    transition: all ease-in-out 200ms;
+}
+.header .right-part .nbar ul li .nbtn:hover {
+    background: #82589F;
+    color: #fff;
+    padding: 25px 5px 10px;
+    border: o;
+    border-radius: 5px;
+}
+.header .right-part .nbar ul li .home {
+    background: #82589F;
+    color: #fff;
+    padding: 22px 5px 10px;
+    border: o;
+    border-radius: 0 0 5px 5px;
+}
+.header .right-part .nbar ul li .home:hover {
+    box-shadow: 0 2px 8px 3px #7f8fa6;
+}
+/* end header section */
+
+.part {
+    margin-top: 10px;
+}
+.part  .part-container {
+    overflow: hidden;
+    width: 93%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.part  .part-container .left-part {
+    width: 40%;
+    float: left;
+}
+.part  .part-container .left-part h1 {
+    width: 70%;
+    text-align: center;
+    font-size: 50px;
+    margin: 80px auto 15px;
+}
+.part  .part-container .left-part p {
+    color: #a4b0be;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    width: 100%;
+    left: 0;
+    right: o;
+    margin: auto;
+}
+.part  .part-container .left-part .button {
+    width: 100%;
+    text-align: center;
+    margin: 30px auto;
+}
+.part  .part-container .left-part a {
+    font-size: 22px;
+    text-decoration: none;
+    color: #fff;
+    background: #82589F;
+    padding: 15px;
+    border: 0;
+    border-radius: 30px;
+}
+.part  .part-container .left-part a:hover {
+    background: #8e44ad;
+}
+.part  .part-container .right-part {
+    width: 60%;
+    float: right;
+    margin-top: 30px;
+}
+.part  .part-container .right-part .circul {
+    width: 400px;
+    border: 25px solid #82589F;
+    border-radius: 50%;
+    margin: auto;
+}
+.part  .part-container .right-part .circul img {
+    width: 380px;
+    height: 380px;
+}
+
+/* end part area */
+.content {
+    margin: 0;
+    padding: 0;
+    margin-top: 40px;
+}
+.content a:hover {
+    opacity: 0.8;
+}
+.content-area {
+    width: 93%;
+    margin: auto;
+    overflow: hidden;
+}
+.content-area .content-top {
+    display: block;
+    margin-bottom: 40px;
+}
+.content-area .content-top h5 {
+    margin-bottom: 5px
+}
+.content-area .content-top hr {
+    margin-bottom: 40px;
+}
+.content-area .content-top .projects {
+    overflow: hidden;
+}
+.content-area .content-top .projects .project {
+    width: 22%;
+    margin-right: 4%;
+    background: #dcdde1;
+    float: left;
+}
+.content-area .content-top .projects .p4 {
+    margin-right: 0;
+}
+.content-area .content-top .projects .project h4 {
+    text-align: center;
+    margin: 10px 0;
+}
+.content-area .content-top .projects .project img {
+    width: 100%;
+}
+.content-area .content-top .projects .project h5 {
+    text-align: center;
+    margin: 10px 0;
+    color: #2f3542;
+}
+.content-area .middle {
+    overflow: hidden;
+}
+.content-area .middle-left {
+    width: 74%;
+    float: left;
+    margin-right: 4%;
+    margin-bottom: 40px;
+}
+.content-area .middle-left h5 {
+    margin-bottom: 5px;
+}
+.content-area .middle-left hr {
+    margin-bottom: 40px;
+}
+.content-area .middle-left .blogs {
+    width: 100%;
+}
+.content-area .middle-left .blogs .blog {
+    width: 30%;
+    margin-right: 1%;
+    float: left;
+    margin-right: 5%;
+}
+.content-area .middle-left .blogs .blog h4 {
+    color: #82589F;
+}
+.content-area .middle-left .blog img {
+    width: 100%;
+}
+.content-area .middle-left .blogs  .b3 {
+    margin-right: 0;
+}
+.content-area .middle-left h4 {
+    font-size: 18px
+}
+.content-area .middle-left .blog .p1 {
+    margin: 5px 0 10px;
+    color: #34495e;
+}
+.content-area .middle-left .blog .p2 {
+    color: #95a5a6;
+}
+.content-area .middle-right {
+    width: 22%;
+    float: left;
+}
+.content-area .middle-right h5 {
+    margin-bottom: 5px;
+}
+.content-area .middle-right .about-us hr {
+    margin-bottom: 20px;
+}
+.content-area .middle-right .about-us {
+    overflow: hidden;
+    margin-top: 40px;
+}
+.content-area .middle-right .about-us .about {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+.content-area .middle-right .about-us .about:last-child {
+    margin-bottom: 0;
+}
+.content-area .middle-right .about-us .about img {
+    width: 20%;
+    margin: 2px 14px 25px 1px;
+    border: 4px solid white;
+    outline: 1px solid black;
+    float: left;
+}
+.content-area .middle-right .about-us .about h4 {
+    margin-top: -3px;
+    color: #34495e;
+}
+.content-area .middle-right .about-us .about .p1 {
+    font-size: 14px;
+    margin: 2px auto;
+    color: #95a5a6;
+}
+.content-area .middle-right .about-us a {
+    color: #82589F;
+    font-size: 14px;
+}
+.middle-hr {
+    margin-top: 15px;
+}
+
+/* end content area */
+
+.contact-area {
+    margin: 0;
+    padding: 0;
+    margin-top: 40px;
+}
+.contact-area .contact {
+    width: 93%;
+    margin: auto;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+.contact-area .contact .box {
+    width: 22%;
+    float: left;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.contact-area .contact .box1,
+.contact-area .contact .box2,
+.contact-area .contact .box3 {
+    margin-right: 4%;
+}
+.contact-area .contact .box h4 {
+    color: #34495e;
+    margin-bottom: 25px;
+}
+.contact-area .contact .box1 h3 {
+    color: #34495e;
+    margin-bottom: 5px;
+}
+.contact-area .contact .box1 p {
+    color: #95a5a6;
+    margin-bottom: 15px;
+}
+.contact-area .contact .box1 .btn {
+    text-align: right;
+}
+.contact-area .contact .box1 .btn a {
+    color: #82589F;
+}
+.contact-area .contact .box2 a {
+    color: #82589F;
+}
+.contact-area .contact .box2 .btn {
+    margin-bottom: 8px;
+}
+.contact-area .contact .box2 hr {
+    margin-bottom: 15px;
+}
+.contact-area .contact .box3 p {
+    color: #95a5a6;
+    margin-bottom: 20px
+}
+.contact-area .contact .box3 p:last-child {
+    margin-bottom: 0;
+}
+.contact-area .contact .box4 .icon-box {
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.contact-area .contact .box4 .icon {
+    background: #95a5a6;
+    display: inline-block;
+    margin-top: 5px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    text-align: center;
+    float: left;
+    margin-right: 10px;
+}
+.contact-area .contact .box4 .icon:hover {
+    background: #82589F; 
+}
+.contact-area .contact .box4 .icon i {
+    font-size: 20px;
+    margin-top: 10px;
+    color: white;
+}
+.contact-area .contact .box4 p {
+    margin-top: 15px;
+    color: #82589F;
+}
+
+/* end contact area */
+
+.footer-area {
+    width: 100%;
+    margin: 10px 0 15px 0;
+}
+.footer-area .container {
+    width: 93%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-area .container span {
+    font-size: 13px;
+    color: #95a5a6;
+    margin-top: 5px;
+;
+}

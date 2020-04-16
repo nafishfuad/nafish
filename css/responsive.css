@@ -1,0 +1,271 @@
+@media screen and (max-width: 1150px) {
+    .header .right-part .nbar ul li {
+        margin-right: 2px;
+    }
+    .header .right-part .nbar ul li .nbtn {
+        font-size: 14px;
+    }
+    .part  .part-container .left-part h1 {
+        margin-top: 60px;
+        font-size: 40px;
+    }
+    .part  .part-container .left-part p {
+        font-size: 16px;
+    }
+    .part  .part-container .left-part a {
+        font-size: 20px;
+        padding: 12px;
+    }
+    .part  .part-container .right-part {
+        margin-top: 5px;
+    }
+    .part  .part-container .right-part .circul {
+        width: 300px;
+        border-width: 18px;
+        margin-right: 15%;
+    }
+    .part  .part-container .right-part .circul img {
+        width: 300px;
+        height: 300px;
+    }
+    .content-area .middle-right .about-us .about .p1 {
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 980px) {
+    .header .right-part .nbar ul li .nbtn {
+        font-size: 9px;
+    }
+    .header .container {
+        padding-top: 13px;
+    }
+    .part  .part-container .left-part h1 {
+        margin: 60px auto 10px;
+        width: 75%;
+        font-size: 35px;
+    }
+    .part  .part-container .left-part p {
+        font-size: 14px;
+        font-weight: 300;
+    }
+    .part  .part-container .left-part a{
+        font-size: 18px;
+        padding: 10px;
+    }
+    .part  .part-container .right-part {
+        margin-top: 5px;
+    }
+    .part  .part-container .right-part .circul {
+        width: 250px;
+        border-width: 18px;
+        margin-right: 15%;
+    }
+    .part  .part-container .right-part .circul img {
+        width: 250px;
+        height: 250px;
+    }
+    .content-area .middle-right .about-us .about img {
+        margin-right: 8px;
+    }
+}
+@media screen and (max-width: 815px) {
+    .part .part-container {
+        margin-bottom: 35px;
+    }
+    .part  .part-container .left-part h1 {
+        font-size: 30px;
+    }
+    .part  .part-container .left-part p {
+        font-size: 12px;
+    }
+    .part  .part-container .left-part a {
+        font-size: 11px;
+        padding: 12px;
+    }
+    .part  .part-container .right-part .circul img {
+        width: 200px;
+        height: 200px;
+    }
+    .part  .part-container .right-part .circul {
+        margin-right: 30px;
+        width: 200px;
+    }
+    .content-area .middle-right .about-us .about img {
+        margin-bottom: 5px;
+    }
+    .content-area .middle-right .about-us a {
+        font-size: 12px;
+    }
+    .content-area .middle-right .about-us hr {
+        margin-bottom: 8px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .contact-area .contact .box {
+        width: 45%;
+        margin-top: 20px;
+    }
+    .contact-area .contact .box1,
+    .contact-area .contact .box3 {
+        margin-right: 10%;
+    }
+    .contact-area .contact .box2,
+    .contact-area .contact .box4 {
+        margin-right: 0;
+    }
+}
+@media screen and (max-width: 650px) {
+    .header .container .left-part {
+        width: 100%;
+        float: none;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .header .container .left-part h2 {
+        font-size: 45px;
+    }
+    .header .container .right-part {
+        width: 100%;
+        float: none;
+        text-align: center;
+        margin: 10px 0;
+    }
+    .header .container .right-part .nbar ul li {
+        margin-right: 1px;
+    }
+    .header .right-part .nbar ul li .nbtn {
+        padding: 4px 4px;
+        border-radius: 5px;
+        transition: none;
+    }
+    .header .right-part .nbar ul li .nbtn:hover {
+        padding: 5px 4px;
+    }
+    .header .right-part .nbar ul li .home:hover {
+        box-shadow: 0 0px 5px 2px #7f8fa6;
+    }
+    .part  .part-container .left-part {
+        width: 100%;
+        float: none;
+        margin-left: 0;
+    }
+    .part  .part-container .left-part h1 {
+        font-size: 24px;
+        margin: 15px auto;
+    }
+    .part  .part-container .left-part p {
+        width: 65%;
+    }
+    .part  .part-container .right-part {
+        width: 100%;
+    }
+    .part  .part-container .right-part .circul {
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+    .content-area .content-top .projects {
+        margin: 0 4%;
+    }
+    .content-area .content-top .projects .project {
+        width: 45%;
+        margin-bottom: 5px;
+    }
+    .content-area .content-top .projects .p2 {
+        margin-right: 0;
+    }
+    .content-area .content-top .projects .p1,
+    .content-area .content-top .projects .p2 {
+        margin-bottom: 15px;
+    }
+    .content-area .content-top .projects .p1,
+    .content-area .content-top .projects .p3 {
+        margin-right: 10%;
+    }
+    .content-area .middle-left {
+        float: none;
+        width: 100%;
+        overflow: hidden;
+    }
+    .content-area .middle-left .blogs {
+        width: 80%;
+        margin: auto;
+    }
+    .content-area .middle-right {
+        width: 100%;
+        float: none;
+        overflow: hidden;
+    }
+    .content-area .middle-right .about-us .about img {
+        width: 8%;
+    }
+}
+@media screen and (max-width: 480px) {
+    .header .container .left-part h2 {
+        font-size: 35px;
+    }
+    .header .left-part p {
+        font-size: 13px;
+        margin-top: 2px;
+    }
+    .part  .part-container .left-part h1 {
+        font-size: 20px;
+        margin-top: 1px;
+        margin-bottom: 10px;
+    }
+    .part  .part-container .left-part .button {
+        margin-top: 15px;
+    }
+    .part  .part-container .right-part .circul img {
+        width: 150px;
+        height: 150px;
+    }
+    .part  .part-container .right-part .circul {
+        width: 150px;
+    }
+    .content-area .middle-left .blogs .blog {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .content-area .middle-left .blog img {
+        width: 60%;
+    }
+    .contact-area .contact .box p,
+    .contact-area .contact .box a {
+        font-size: 12px;
+    }
+    .contact-area .contact .box1 {
+        width: 100%;
+        float: none;
+    }
+    .contact-area .contact .box2,
+    .contact-area .contact .box3 {
+        width: 45%;
+        margin-right: 10%;
+    }
+    .contact-area .contact .box3 {
+        margin-right: 0;
+    }
+    .contact-area .contact .box3 p {
+        width: 100%;
+    }
+    .contact-area .contact .box4 {
+        width: 100%;
+    }
+    .contact-area .contact .box4 .icon-box {
+        width: 45%;
+        float: left;
+    }
+    .contact-area .contact .box4 .icon1,
+    .contact-area .contact .box4 .icon3 {
+        margin-right: 10%;
+    }
+    .contact-area .contact .box4 .icon {
+        height: 30px;
+        width: 30px;
+    }
+    .contact-area .contact .box4 .icon i {
+        font-size: 15px;
+        margin-top: 8px;
+    }
+}
