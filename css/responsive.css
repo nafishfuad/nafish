@@ -137,6 +137,8 @@
         padding: 4px 4px;
         border-radius: 5px;
         transition: none;
+        font-size: 14px;
+        line-height: 2.3;
     }
     .header .right-part .nbar ul li .nbtn:hover {
         padding: 5px 4px;
@@ -208,6 +210,9 @@
         font-size: 13px;
         margin-top: 2px;
     }
+    .header .right-part .nbar ul li .nbtn {
+        font-size: 10px;
+    }
     .part  .part-container .left-part h1 {
         font-size: 20px;
         margin-top: 1px;
@@ -222,6 +227,7 @@
     }
     .part  .part-container .right-part .circul {
         width: 150px;
+        border: 10px solid #82589F;
     }
     .content-area .middle-left .blogs .blog {
         width: 100%;
